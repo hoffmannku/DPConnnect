@@ -5,7 +5,7 @@ The program works with ATmega32u4 based boards e.g. arduino, esp32
 UI is any console e.g. putty
 Interface to battery is a serial connection  (UART)
 
-Wiring Battery with Arduino: 
+Wiring Battery with board
 - RX       <->  D3 (Softwaresimulated TX)
 - TX       <->  D4 (Softwaresimulated RX)
 - GND      <->  GND 
