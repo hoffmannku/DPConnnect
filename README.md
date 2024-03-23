@@ -13,6 +13,6 @@ Wiring Battery with Arduino:
     
 Notes:
 1. most arduinos have only one onboard serial connector, which is used by USB . 
-2. battery managment system must be startet. This can be achieved by connection test pin to GND
+2. battery managment system must be startet. This is achieved by connecting test pin to GND
 
 This program references an external library [ModbusRTUMAster Library](https://github.com/CMB27/ModbusRTUMaster) 
