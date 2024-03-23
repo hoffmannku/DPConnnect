@@ -1,9 +1,9 @@
 # DPConnnect
 Tool for Vanmoof S3 Battery.  
-Reads Vanmoof S3/X3 battery registers via Modbus/RTU.
-Code is intended for any Arduino Controler. 
+Reads Vanmoof S3/X3 battery registers via Modbus/RTU. 
+The program works with ATmega32u4 based boards e.g. arduino,  
 UI is any console e.g. putty
-interface to battery is a serial connection (RS-485)
+Interface to battery is a serial connection  (UART)
 
 Wiring 
 Battery        Arduino 
