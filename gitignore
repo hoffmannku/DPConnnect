@@ -1,0 +1,5 @@
+#ignore folders
+src/connectDPModbus2/
+src/connectDPSPI/
+src/Connect_DP/
+libraries/
