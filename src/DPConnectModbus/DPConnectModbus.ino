@@ -217,7 +217,7 @@ void setup() {
   modbus.begin(baudRates[BTBaudRate]);  // modbus baud rate, config to do
   modbus.setTimeout(100);
   Serial.print(F("Modbus serial port configuration: "));
-  Serial.print(baud);
+  Serial.print(baudRates[BTBaudRate]);
   Serial.print(F("-8-N-1"));
   Serial.println();
 }
