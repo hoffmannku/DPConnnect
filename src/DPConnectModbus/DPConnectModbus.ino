@@ -15,7 +15,7 @@ const uint8_t rxPin = 3;
 const uint8_t txPin = 4;
 const uint8_t devId = 170;  				//  ID Battery
 
-const uint32_t baudRates[8] = { 1200, 2400, 4800, 9600, 16200, 38400, 57600, 115200 };
+const uint32_t baudRates[8] = { 1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200 };
 const uint8_t  hostBaudRate = 5;        // works ok
 const uint8_t  BTBaudRate = 3;          // slow for softwareserial 
 
